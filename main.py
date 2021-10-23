@@ -29,6 +29,7 @@ def random_symbols():
     ]
 
 
+print(f'Версия программы: v0.0.1)
 print(f'Кол-во доступных символов: {len(ARRAY_SYMBOLS)}')
 # print(f'Доступные символы: {ARRAY_SYMBOLS}')
 print(f'Кол-во возможных комбинаций: {count_variant}')
