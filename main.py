@@ -45,3 +45,5 @@ print(f'Сгенерированный пароль: {password}')
 # Запись пароля в файл
 with open('password.txt', 'a') as password_string:
     password_string.write('{}\n'.format(f'{password}'))
+
+input()
